@@ -22,5 +22,6 @@
         "sourcep",
         "subfunc",
         "topbar"
-    ]
+    ],
+    "jupyter.jupyterServerType": "local"
 }

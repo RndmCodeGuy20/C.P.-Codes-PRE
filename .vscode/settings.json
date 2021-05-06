@@ -26,5 +26,6 @@
     "jupyter.jupyterServerType": "local",
     "java.project.sourcePaths": [
         ""
-    ]
+    ],
+    "python.formatting.provider": "black"
 }

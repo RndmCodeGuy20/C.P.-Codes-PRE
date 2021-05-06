@@ -23,5 +23,8 @@
         "subfunc",
         "topbar"
     ],
-    "jupyter.jupyterServerType": "local"
+    "jupyter.jupyterServerType": "local",
+    "java.project.sourcePaths": [
+        ""
+    ]
 }

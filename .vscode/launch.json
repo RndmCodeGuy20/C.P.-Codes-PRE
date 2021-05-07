@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch first",
+            "request": "launch",
+            "mainClass": "JavaCodes.first",
+            "projectName": "C.P. Codes_46476947"
+        },
+        {
+            "type": "java",
             "name": "Launch HelloWorld",
             "request": "launch",
             "mainClass": "HelloWorld",

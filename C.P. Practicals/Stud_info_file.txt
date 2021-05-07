@@ -1,0 +1,10 @@
+
+For student 1:
+Name: shantanu
+Roll number: 85
+Fees Paid: 8374.000000
+
+For student 2:
+Name: mane
+Roll number: 87
+Fees Paid: 83342.000000

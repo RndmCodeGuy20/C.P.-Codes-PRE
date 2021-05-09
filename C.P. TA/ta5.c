@@ -11,46 +11,39 @@ struct library
     int year_pub;         //done
     int book_num;         //done
     int rough;
-
 };
-void librarian_input();
 
 int main()
 {
-    
-    int num_books, j;
 
+    int num_books;
+    int j = 0;
 
-    printf("Enter the number of books: ");
+    printf("\n\nEnter the number of books: ");
     scanf("%d", &num_books);
-    
-    int n = num_books;
 
-    struct library books[n];
-    
-    for (j = 0; j < num_books; j++)
+    struct library books[num_books];
+
+    for (j = 0; j <= num_books; j++)
     {
 
-        printf("\nEnter the book's name: ");
-        scanf("%s", books[n].book_name);
+        printf("\n\nEnter the book's name: ");
+        scanf("%s", &books[num_books].book_name);
 
         printf("\n\nEnter the book's author's name: ");
-        gets(books[n].author_name);
+        scanf("%s", &books[num_books].author_name);
 
         printf("\n\nEnter the number of pages: ");
-        scanf("%d", &books[n].num_page);
+        scanf("%d", &books[num_books].num_page);
 
         printf("\n\nEnter the book's Year of Publication: ");
-        scanf("%d", &books[n].year_pub);
+        scanf("%d", &books[num_books].year_pub);
 
         printf("\n\nEnter the books ISBN Code: ");
-        scanf("%ld", &books[n].ISBN_code);
+        scanf("%ld", &books[num_books].ISBN_code);
 
         printf("\n\nEnter the book's genre: ");
-        gets(books[n].genres);
-
-        printf("enter rough");
-        scanf("%d", &books[n].rough);
+        scanf("%s", &books[num_books].genres);
     }
     return 0;
 }

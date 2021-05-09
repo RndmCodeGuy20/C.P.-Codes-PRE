@@ -41,7 +41,6 @@ void strcopy(char *resultp, char *sourcep)
         sourcep++;
         resultp++;
     }
-   
+
     *resultp = '\0';
-    
 }

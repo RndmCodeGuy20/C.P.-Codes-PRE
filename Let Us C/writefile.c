@@ -1,26 +1,28 @@
 #include <stdio.h>
 #include <conio.h>
 #include <stdlib.h>
+#include <string.h>
 
 int main()
 {
-    FILE *fp;
-    char ch;
+    FILE *ftarget;
+    char s[1024];
 
-    fp = fopen("C:\\C.P. Codes\\Files\\file1.txt", "r");
+    ftarget = fopen("C:\\C.P. Codes\\Files\\filetarget.txt", "r");
 
-    while (1)
+    if (ftarget == NULL)
     {
-        ch = fgetc(fp);
-        if (ch == EOF)
-        {
-            break;
-        }
-
-        printf("%c", ch);
+        puts("Cannot Open File!");
+        exit(1);
     }
-    printf("\n\n");
-    fclose(fp);
 
+    while (fgets(s, 1023, ftarget) != NULL)
+    {
+        printf("%s", s);
+    }
+    printf("\n");
+
+    printf("%lld", &s);
+    fclose(ftarget);
     return 0;
 }

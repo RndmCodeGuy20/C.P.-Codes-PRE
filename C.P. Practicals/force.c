@@ -8,7 +8,7 @@ float force,mass,accel;
 printf("Enter the mass of the body (In Kg): ");
 scanf("%f",&mass);
 
-printf("Enter the accelaration of the body (In m/s^2): ");
+printf("Enter the acceleration of the body (In m/s^2): ");
 scanf("%f",&accel);
 
 force=mass*accel;

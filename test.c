@@ -2,11 +2,11 @@
 
 int main()
 {
-    char name[10] = {"Shantanu"};
-    for (int i = 0; i < 10; i++)
-    {
-        printf("%s", name[i]);
-    }
+
+    printf("%s\n", __FILE__);
+    printf("%s\n", __DATE__);
+    printf("%s\n", __TIME__);
+    printf("%s\n", __STDC__);
 
     return 0;
 }

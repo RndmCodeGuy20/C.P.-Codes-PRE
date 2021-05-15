@@ -6,13 +6,11 @@
 
 int main()
 {
-    int a = 0;
-    if (a > 10)
-    {
-        printf("a is greater than 10");
-    }
-    else
-        (printf("%d", rand()));
+
+    int i = 20;
+    i = i + 1;
+
+    printf("%d", i);
 
     return 0;
 }

@@ -26,12 +26,11 @@ int main()
 
     printf("\nStudents Information --> \t\n");
 
-    char c = fgetc(fptr);
+    char c;
 
-    while (c != EOF)
+    while ((c = getc(fptr)) != EOF)
     {
         putchar(c);
-        c = getc(fptr);
     }
     fclose(fptr);
 

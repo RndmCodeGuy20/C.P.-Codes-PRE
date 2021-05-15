@@ -13,13 +13,12 @@
 
 int main()
 {
-    
+
     int i, j, n, temp, array[100];
 
     printf("Enter the number of elements in the array: ");
     scanf("%d", &n);
-   
-   
+
     printf("Enter the elements: ");
     for (i = 0; i < n; i++)
     {

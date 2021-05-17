@@ -4,13 +4,15 @@
 #include <string.h>
 #include <stdlib.h>
 
+int m = 10;
+
 int sum(int *x, int *y)
 {
 
     int sum;
 
     sum = *x + *y;
-
+    printf("Output from function : %d and m = %d\n", sum, m);
     return sum;
 }
 

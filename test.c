@@ -25,8 +25,8 @@ int main()
     scanf("%d %d", &a, &b);
 
     z = sum(&a, &b);
-
-    printf("%d", z);
+    char ch = 104;
+    printf("%d %c", z, ch);
 
     return 0;
 }

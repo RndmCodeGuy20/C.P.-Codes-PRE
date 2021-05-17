@@ -1,12 +1,30 @@
 #include <stdio.h>
+#include <conio.h>
+#include <math.h>
+#include <string.h>
+#include <stdlib.h>
+
+int sum(int *x, int *y)
+{
+
+    int sum;
+
+    sum = *x + *y;
+
+    return sum;
+}
 
 int main()
 {
+    static int z;
 
-    printf("%s\n", __FILE__);
-    printf("%s\n", __DATE__);
-    printf("%s\n", __TIME__);
-    printf("%d\n", __LINE__);
+    int a, b;
+
+    scanf("%d %d", &a, &b);
+
+    z = sum(&a, &b);
+
+    printf("%d", z);
 
     return 0;
 }

@@ -1,7 +1,7 @@
 /**
  * @file quadfunc.c
  * @author Shantanu Mane (shantanu.mane.200@outlook.com)
- * @brief 
+ * @brief This program gives us the result of a given quadratic expression by entering the coefficients of the variables.
  * @version  420.69
  * @date 2021-05-18
  * 
@@ -50,3 +50,8 @@ float sol(float m, float n, float o)
 
     printf("\nThe solution of the given quadratic expression is : %.3f %.3f", sol1, sol2);
 }
+/*
+*code green; code works fine.
+!code does not give imaginary and long float values of the solution
+?including complex.h might resolve the problem
+*/

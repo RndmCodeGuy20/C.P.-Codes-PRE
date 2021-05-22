@@ -7,7 +7,7 @@
 int main()
 {
 
-    int i,lim;
+    int i, lim;
 
     float sum;
     double z;
@@ -15,12 +15,12 @@ int main()
     printf("Enter the limit : ");
     scanf("%d", &lim);
 
-    for ( i = 1; i <= lim; i++)
+    for (i = 1; i <= lim; i++)
     {
-        z = pow(i,2);
-        sum += 1/z;
+        z = pow(i, 2);
+        sum += 1 / z;
     }
-    
+
     printf("The sum of the series is %f", sum);
 
     return 0;

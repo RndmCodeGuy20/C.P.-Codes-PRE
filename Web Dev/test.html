@@ -4,25 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Slide Show</title>
+    <link rel="stylesheet" href="test.css">
+    <script src="test.js"></script>
 </head>
 <body>
     <div class="wrapper">
 
         <div class="slide">
-            <img src="../Web Dev/bookstore/Images/11min.jpg" alt="11min">
+            <img src="slide/1138974.jpg" alt="11min" >
             <div class="text">First Caption</div>
         </div>
         <div class="slide">
-            <img src="../Web Dev/bookstore/Images/alchemist.jpg" alt="alchemist">
+            <img src="slide/1138983.jpg" alt="alchemist" >
             <div class="text">Second Caption</div>
         </div>
         <div class="slide">
-            <img src="../Web Dev/bookstore/Images/fifthmountain.jpg" alt="fifthmountain">
+            <img src="slide/wp4471413.jpg" alt="fifthmountain" >
             <div class="text">Third Caption</div>
         </div>
-        <div class="prev">&#10094 </div>
-        <div class="next">&#10095 </div>
+        <div class="prev" onclick="moveSlide(-1)">&#10094 </div>
+        <div class="next" onclick="moveSlide(1)">&#10095 </div>
 
     </div>
 </body>

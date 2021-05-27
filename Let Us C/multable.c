@@ -1,3 +1,13 @@
+/**
+ * @file multable.c
+ * @author Shantanu Mane (shantanu.mane.200@outlook.com)
+ * @brief 
+ * @version  420.69
+ * @date 2021-05-27
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #include <stdio.h>
 #include <conio.h>
 #include <math.h>

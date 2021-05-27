@@ -4,11 +4,10 @@
 #include <string.h>
 #include <stdlib.h>
 
-int factorial(int n);
-
 int main()
 {
     int m;
+    float fact;
     double sum = 0;
 
     printf("Enter the number of terms: ");
@@ -16,23 +15,16 @@ int main()
 
     for (int i = 1; i <= m; i++)
     {
-        sum += (i / factorial(i));
+        fact = i;
+
+        for (int j = 0; j < m; j++)
+        {
+            fact = fact * j;
+        }
+        sum += i / fact;
     }
 
     printf("The sum of the expression is : %lf", sum);
 
     return 0;
-}
-int factorial(int n)
-{
-    int fac;
-    if (n >= 1)
-    {
-        fac = n * factorial(n - 1);
-    }
-    else
-    {
-        fac = 1;
-    }
-    return (fac);
 }

@@ -26,4 +26,4 @@ background-color:#0b03fc;
 input[type="text"]{
 border-radius:10px;
 }
-</style>*/ 
+</style>*/

@@ -3,7 +3,12 @@
 #include <math.h>
 #include <string.h>
 #include <stdlib.h>
+/*
+? how many functions : null
+! red code
+*code green
 
+*/
 int main()
 {
     FILE *fptr;
@@ -33,7 +38,7 @@ int main()
 
     printf("Enter the lines you want to append: ");
     scanf("%s", &append);
-    fprintf(fptr,"\n%s",append);
+    fprintf(fptr, "\n%s", append);
 
     return 0;
 }

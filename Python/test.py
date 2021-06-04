@@ -7,4 +7,4 @@ word = word1
 word1 = word2
 word2 = word
 
-print(word1 + word2)
+print(word1 +" "+ word2)

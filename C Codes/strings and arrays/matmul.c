@@ -1,7 +1,7 @@
 /**
  * @file matmul.c
  * @author Shantanu Mane (shantanu.mane.200@outlook.com)
- * @brief 
+ * @brief Program to find the result of the multiplication of two Matrices.
  * @version 0.1
  * @date 2021-04-28
  * 
@@ -82,8 +82,6 @@ int main()
     /*
     *Code is correct, giving appropriate and correct output!!
     ! No bug found.
-    ? now the explosions will last forever!!!!LOLZ
-    
     */
 
     return 0;

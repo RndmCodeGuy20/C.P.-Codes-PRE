@@ -1,3 +1,13 @@
+/**
+ * @file idenmat.c
+ * @author Shantanu Mane @RndmCodeGuy20 (shantanu.mane.200@outlook.com)
+ * @brief Program to check whether the given input matrix is an identity matrix or not.
+ * @version  420.69
+ * @date 2021-06-05
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #include<stdio.h>
 #include<conio.h>
 
@@ -29,7 +39,7 @@ int row,col,i,j,flag=1;
         printf("\n\n");
     }
 
-    //Checking the matrix if it is identity matrix or not.
+    //Checking if the matrix is identity matrix or not.
     for ( i = 0; i < row; i++)
     {
         for ( j = 0; j < col; j++)
@@ -42,11 +52,11 @@ int row,col,i,j,flag=1;
         }
         if (flag==1)
         {
-            printf("YES entered matrix is an identity matrix!!\n\n");
+            printf("YES! Entered matrix is an identity matrix!!\n\n");
         }
         else
         {
-            printf("NO entered matrix is not an identity matrix!!\n\n");
+            printf("NO! Entered matrix is not an identity matrix!!\n\n");
         }
         
     }

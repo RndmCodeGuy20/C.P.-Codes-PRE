@@ -1,3 +1,13 @@
+/**
+ * @file matarithm.c
+ * @author Shantanu Mane @RndmCodeGuy20 (shantanu.mane.200@outlook.com)
+ * @brief  Program to operate two given input matrices arithmetically.
+ * @version  420.69
+ * @date 2021-06-05
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #include<stdio.h>
 #include<conio.h>
 

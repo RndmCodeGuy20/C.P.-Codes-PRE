@@ -4,10 +4,9 @@
 #include <string.h>
 #include <stdlib.h>
 /*
-? how many functions : null
+? number of functions : null
 ! red code
 *code green
-
 */
 int main()
 {

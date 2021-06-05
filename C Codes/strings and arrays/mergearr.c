@@ -16,35 +16,28 @@
 
 int main()
 {
-    int array1[20], array2[20], arrayRe[40];
-    int i, j, k, size1, size2, size3;
-
-    printf("Enter the number of elements in the first array : ");
+    int arr1[50], arr2[50], size1, size2, i, k, merge[100];
+    printf("Enter size of ARRAY1: ");
     scanf("%d", &size1);
-
+    printf("Enter ARRAY1's Elements: ");
     for (i = 0; i < size1; i++)
     {
-        printf("Enter the element at array1[%d] : ", i + 1);
-        scanf("%d", &array1[i]);
+        scanf("%d", &arr1[i]);
+        merge[i] = arr1[i];
     }
-
-    printf("Enter the number of elements in the first array : ");
+    k = i;
+    printf("\nEnter size of ARRAY2: ");
     scanf("%d", &size2);
-
-    for (j = 0; i < size2; j++)
+    printf("Enter ARRAY2's Elements: ");
+    for (i = 0; i < size2; i++)
     {
-        printf("Enter the element at array1[%d] : ", j + 1);
-        scanf("%d", &array2[j]);
+        scanf("%d", &arr2[i]);
+        merge[k] = arr2[i];
+        k++;
     }
-
-    size3 = size1 + size2;
-
-    for ( k = 0; k < size3; k++)
-    {
-        
-    }
-    
-
+    printf("\nThe new array after merging is:\n");
+    for (i = 0; i < k; i++)
+        printf("%d ", merge[i]);
 
     return 0;
 }

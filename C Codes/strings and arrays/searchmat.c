@@ -1,3 +1,13 @@
+/**
+ * @file searchmat.c
+ * @author Shantanu Mane @RndmCodeGuy20 (shantanu.mane.200@outlook.com)
+ * @brief 
+ * @version  420.69
+ * @date 2021-06-05
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #include <stdio.h>
 #include <conio.h>
 
@@ -43,7 +53,7 @@ int main()
             {
                 //rowi
                 //colj
-                printf("Your entered number is present in the matrix on the position %d,%d", i, j);
+                printf("\nYour entered number is present in the matrix at the position [%d,%d]", i, j);
                 break;
             }
         }

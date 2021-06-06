@@ -1,7 +1,7 @@
 /**
  * @file tranmat.c
  * @author Shantanu Mane @RndmCodeGuy20 (shantanu.mane.200@outlook.com)
- * @brief 
+ * @brief Program to input values in a matrix, print the matrix, find the transpose of the matrix and print the transpose of the matrix
  * @version  420.69
  * @date 2021-06-06
  * 
@@ -41,7 +41,6 @@ int main()
     {
         for (j = 0; j < col; j++)
         {
-
             printf("%d \t", mat[i][j]);
         }
         printf("\n\n");
@@ -54,7 +53,6 @@ int main()
     {
         for (j = 0; j < col; j++)
         {
-
             printf("%d \t", mat[j][i]);
         }
         printf("\n\n");

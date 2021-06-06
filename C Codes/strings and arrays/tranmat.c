@@ -11,7 +11,9 @@
 #include <stdio.h>
 #include <conio.h>
 
-/*This is a program to input values in a matrix, print the matrix, find the transpose of the matrix and print the transpose of the matrix*/
+/* 
+?This is a program to input values in a matrix, print the matrix, find the transpose of the matrix and print the transpose of the matrix
+*/
 
 int main()
 {

@@ -42,10 +42,12 @@ int main()
     ! 'max' picking up garbage value, giving output as garbage value
     //tried interchanging the relations.
  */
-    for (i = 0; i < n; i++)
+    for (i = 1; i < n; i++)
     {
         if (num[i] > max)
+        {
             max = num[i];
+        }
     }
     printf("The maximum number in the given array is: %d\n", max);
 

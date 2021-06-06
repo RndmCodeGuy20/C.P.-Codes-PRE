@@ -1,5 +1,5 @@
 /**
- * @file trinum3.c
+ * @file pyrastspec.c
  * @author Shantanu Mane @RndmCodeGuy20 (shantanu.mane.200@outlook.com)
  * @brief 
  * @version  420.69
@@ -13,17 +13,25 @@
 
 int main()
 {
-    int i, j, n, k = 1;
+    int i, j, rows, spc, k;
 
     printf("Enter the number of rows needed: ");
-    scanf("%d", &n);
+    scanf("%d", &rows);
 
-    for (i = 1; i <= n; i++)
+    spc = rows;
+
+    for (i = 1; i <= rows; i++)
     {
+
+        for (k = spc; k >= 1; k--)
+        {
+            printf(" ");
+        }
         for (j = 1; j <= i; j++)
         {
-            printf("%d", k++);
+            printf("%d ", i + j - 1);
         }
+        spc--;
         printf("\n");
     }
 

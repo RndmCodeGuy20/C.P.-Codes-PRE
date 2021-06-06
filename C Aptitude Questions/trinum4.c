@@ -1,19 +1,31 @@
-#include<stdio.h>
-#include<conio.h>
+/**
+ * @file trinum4.c
+ * @author Shantanu Mane @RndmCodeGuy20 (shantanu.mane.200@outlook.com)
+ * @brief 
+ * @version  420.69
+ * @date 2021-06-06
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
+#include <stdio.h>
+#include <conio.h>
 
 int main()
 {
-int i,j,n;
+    int i, j, rows;
 
-printf("Enter the number of rows needed: ");
-scanf("%d",&n);
+    printf("Enter the number of rows needed: ");
+    scanf("%d", &rows);
 
-for(i=1;i<=n;i++){
-    for(j=i;j<=n;j++){
-        printf("%d",j);
+    for (i = 1; i <= rows; i++)
+    {
+        for (j = i; j <= rows; j++)
+        {
+            printf("%d", j);
         }
-    printf("\n");
-}
+        printf("\rows");
+    }
 
-return 0;
+    return 0;
 }

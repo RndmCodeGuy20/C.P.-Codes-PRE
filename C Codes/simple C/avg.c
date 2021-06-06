@@ -9,17 +9,17 @@
  * 
  */
 
-#include<stdio.h>
-#include<conio.h>
+#include <stdio.h>
+#include <conio.h>
 
 int main()
 {
     int m, s, e, p, avg;
-    printf ("Enter your Maths, Science, English and P.E. marks respectively: ");
-    scanf ("%d %d %d %d", &m, &s, &e, &p);
-    avg= (m+s+e+p)/4;
+    printf("Enter your Maths, Science, English and P.E. marks respectively: ");
+    scanf("%d %d %d %d", &m, &s, &e, &p);
+    avg = (m + s + e + p) / 4;
 
     printf("Your average marks are: %d", avg);
-    
+
     return 0;
 }

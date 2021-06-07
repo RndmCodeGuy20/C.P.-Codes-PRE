@@ -38,9 +38,10 @@ int main()
     printf("The minimum number in the given array is: %d\n", min);
     /*
     ?Algorithm to find the largest element.
-    ! 'max' picking up garbage value, giving output as garbage value
+    //! 'max' picking up garbage value, giving output as garbage value
     //tried interchanging the relations.
- */
+    *Changed the position of max = num[0], code working fine now.
+    */
     int max = num[0];
     for (i = 1; i < n; i++)
     {

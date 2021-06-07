@@ -14,7 +14,7 @@
 /*
 *Code Green, code works fine and gives result.
 */
-int check_prime(int);
+int check_prime(int *);
 
 int main()
 {
@@ -23,7 +23,7 @@ int main()
   printf("Enter an integer to check whether it is prime or not: ");
   scanf("%d", &n);
 
-  result = check_prime(n);
+  result = check_prime(&n);
 
   if (result == 1)
     printf("%d is prime.\n", n);
@@ -33,13 +33,13 @@ int main()
   return 0;
 }
 
-int check_prime(int a)
+int check_prime(int *a)
 {
   int c, flag;
 
-  for (c = 2; c <= a - 1; c++)
+  for (c = 2; c <= *a - 1; c++)
   {
-    if (a % c == 0)
+    if (*a % c == 0)
     {
       return 0;
     } 

@@ -28,7 +28,7 @@ int main()
     for (i = 0; i < 5; i++)
     {
         st[i].roll_num = i + 1;
-        printf("\n For student having Roll Number: %d\n", st[i].roll_num);
+        printf("\nFor student having Roll Number: %d\n", st[i].roll_num);
         printf("\nEnter the first name of the student: ");
         scanf("%s", st[i].first_name);
 

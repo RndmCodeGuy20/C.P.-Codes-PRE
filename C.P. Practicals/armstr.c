@@ -1,3 +1,13 @@
+/**
+ * @file armstr.c
+ * @author Shantanu Mane @RndmCodeGuy20 (shantanu.mane.200@outlook.com)
+ * @brief 
+ * @version  420.69
+ * @date 2021-06-07
+ * 
+ * @copyright Copyright (c) 2021
+ * !Code Does Not Work...
+ */
 #include <stdio.h>
 #include <conio.h>
 #include <math.h>

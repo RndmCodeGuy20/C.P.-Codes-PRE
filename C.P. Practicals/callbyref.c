@@ -43,7 +43,6 @@ int main()
 
     int num_prime;
 
-    
     printf("\n\nEnter the number you want to check whether it is prime or not: ");
     scanf("%d", &num_prime);
 

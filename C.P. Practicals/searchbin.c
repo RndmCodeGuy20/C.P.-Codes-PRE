@@ -1,3 +1,13 @@
+/**
+ * @file searchbin.c
+ * @author Shantanu Mane @RndmCodeGuy20 (shantanu.mane.200@outlook.com)
+ * @brief 
+ * @version  420.69
+ * @date 2021-06-07
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #include <stdio.h>
 #include <conio.h>
 
@@ -41,7 +51,10 @@ int main()
     first = 0;
     last = n - 1;
     middle = (first + last) / 2;
-
+    if (first > last)
+    {
+        printf("NO your desired element is not present in the input array!\n");
+    }
     while (first <= last)
     {
         if (array[middle] < search)
@@ -58,10 +71,6 @@ int main()
             last = middle - 1;
             middle = (first + last) / 2;
         }
-    }
-    if (first > last)
-    {
-        printf("NO your desired element is not present in the input array!\n");
     }
 
     return 0;

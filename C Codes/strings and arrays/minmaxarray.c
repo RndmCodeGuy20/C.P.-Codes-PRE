@@ -20,7 +20,6 @@ int main()
     scanf("%d", &n);
 
     int min = num[0]; //Assigning the first term of the array to variables max and min
-    int max = num[0];
 
     for (i = 0; i < n; i++)
     {
@@ -42,9 +41,10 @@ int main()
     ! 'max' picking up garbage value, giving output as garbage value
     //tried interchanging the relations.
  */
+    int max = num[0];
     for (i = 1; i < n; i++)
     {
-        if (num[i] > max)
+        if (max < num[i])
         {
             max = num[i];
         }

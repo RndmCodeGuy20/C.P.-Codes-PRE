@@ -8,4 +8,4 @@ def factorial(k):
     return result
 
 print("Factorial of the input number is")
-factorial(10)
+factorial(5)

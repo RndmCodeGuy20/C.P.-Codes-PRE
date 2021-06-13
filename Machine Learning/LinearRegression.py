@@ -6,11 +6,11 @@ y = [99,86,87,88,111,86,103,87,94,78,77,85,86]
 
 slope, intercept, r, p, std_err = stats.linregress(x,y)
 
-def myfunc(x):
+def regressfunc(x):
     return slope*x + intercept
 
-mymodel = list(map(myfunc,x))
+regressmodel = list(map(regressfunc,x))
 
 plt.scatter(x,y)
-plt.plot(x,mymodel)
+plt.plot(x,regressmodel)
 plt.show()

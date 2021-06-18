@@ -31,5 +31,6 @@
         ""
     ],
     "python.formatting.provider": "black",
-    "git.ignoreLimitWarning": true
+    "git.ignoreLimitWarning": true,
+    "python.pythonPath": "C:\\Python39\\python.exe"
 }

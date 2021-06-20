@@ -7,7 +7,7 @@ int main()
     
     while (1)
     {
-        printf("%c",43);
+        printf("%c",00);
     }
     
 

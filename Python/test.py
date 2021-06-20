@@ -8,3 +8,9 @@ word1 = word2
 word2 = word
 
 print(word1 + word2)
+a = 5
+b = 10
+
+a,b=b,a
+
+print(a,b)

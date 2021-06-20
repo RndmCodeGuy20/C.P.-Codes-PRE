@@ -4,10 +4,10 @@
 
 int main()
 {
-    
+    int i=0;
     while (1)
     {
-        printf("%c",00);
+        printf("%c",i++);
     }
     
 

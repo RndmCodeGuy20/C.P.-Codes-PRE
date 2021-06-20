@@ -10,7 +10,7 @@ word2 = word
 print(word1 + word2)
 a = 5
 b = 10
+c = 20
+a,b,c=c,b,a
 
-a,b=b,a
-
-print(a,b)
+print(a,b,c)
